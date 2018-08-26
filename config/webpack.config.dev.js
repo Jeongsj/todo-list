@@ -221,7 +221,7 @@ module.exports = {
               {
                 loader: require.resolve('sass-loader'),
                 options: {
-                  includePaths: [path.styles]
+                  includePaths: [paths.styles]
                 }
               }
             ],
